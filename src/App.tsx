@@ -26,17 +26,17 @@ import confetti from "canvas-confetti";
 type Page = "intro" | "card" | "memories" | "letter";
 
 const images = [
-  "public/assets/images/img1.jpeg",
-  "public/assets/images/img2.jpeg",
-  "public/assets/images/img3.jpeg",
-  "public/assets/images/img4.jpeg",
-  "public/assets/images/img6.jpeg",
+  "/assets/images/img1.jpeg",
+  "/assets/images/img2.jpeg",
+  "/assets/images/img3.jpeg",
+  "/assets/images/img4.jpeg",
+  "/assets/images/img6.jpeg",
 ];
 
 const videos = [
-  { id: 1, title: "si right mara?", url: "public/assets/videos/vid1.mp4" },
-  { id: 2, title: "Special Day", url: "public/assets/videos/vid2.mp4"},
-  { id: 3, title: "Ngatitholela sgulane", url: "public/assets/videos/vid3.mp4" },
+  { id: 1, title: "si right mara?", url: "/assets/videos/vid1.mp4" },
+  { id: 2, title: "Special Day", url: "/assets/videos/vid2.mp4"},
+  { id: 3, title: "Ngatitholela sgulane", url: "/assets/videos/vid3.mp4" },
 ];
 
 const textVariant: Variants = {
@@ -101,7 +101,7 @@ function IntroPage({ onNext }: { onNext: () => void }) {
           className="mb-12 flex justify-center"
         >
           <img 
-            src="public\assets\images\bg.png" 
+            src="\assets\images\bg.png" 
             alt="Intro decoration" 
             className="w-48 sm:w-64 h-auto "
             referrerPolicy="no-referrer"
