@@ -55,9 +55,9 @@
 }
 /* Background Large Text */
 .bg-text-large {
-  font-size: 30vw;
-  line-height: 0.7;
-  font-weight: 900;
+  font-size: 50vw;
+  line-height: 0.8;
+  font-weight: 950;
   color: rgba(0, 0, 0, 0.03);
   white-space: nowrap;
   pointer-events: none;
