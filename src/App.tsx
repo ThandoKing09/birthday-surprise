@@ -35,7 +35,7 @@ const images = [
 
 const videos = [
   { id: 1, title: "si right mara?", url: "/assets/videos/vid1.mp4" },
-  { id: 2, title: "Special Day", url: "/assets/videos/vid2.mp4"},
+  { id: 2, title: "Gorgeous", url: "/assets/videos/vid2.mp4"},
   { id: 3, title: "Ngatitholela sgulane", url: "/assets/videos/vid3.mp4" },
 ];
 
@@ -154,7 +154,7 @@ function CardPage({ onNext }: { onNext: () => void }) {
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 2, type: "spring" }}
         onClick={handleConfetti}
-        className="fixed bottom-8 right-8 z-[100] w-20 h-20 bg-pink-600 rounded-full flex flex-col items-center justify-center shadow-2xl shadow-pink-600/40 hover:scale-110 active:scale-90 transition-transform group"
+        className="fixed top-8 right-8 z-[100] w-20 h-20 bg-pink-600 rounded-full flex flex-col items-center justify-center shadow-2xl shadow-pink-600/40 hover:scale-110 active:scale-90 transition-transform group"
       >
         <PartyPopper className="w-8 h-8 group-hover:rotate-12 transition-transform" />
         <span className="text-[8px] font-bold mt-1">US</span>
